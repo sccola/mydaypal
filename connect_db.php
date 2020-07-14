@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli('localhost', 'root', 'scc@mysql!', 'mydaypal_db');
+$mysqli = new mysqli('localhost', 'dbuser', 'dbuser123', 'mydaypaldb');
  
  set_time_limit(12000000);
 
