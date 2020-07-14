@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geneva&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu';
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2850;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: Ubuntu;
+}
+
+.custom-container {
+    max-width: 1440px;
+  }
+  
+  .container-fluid {
+    padding-bottom: 0 !important;
+  }  
+
+.header {
+    /* height: 100px; */
+    /* background: #E9CC41; */
+}
+
+.custom-text-pink {
+    color:#FF626A;
+}
+
+.custom-text-bold {
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+}
+
+.custom-text-500 {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+
+.hero-section {
+    height: 959px;
+    /* background: rgba(0, 0, 0, 0.7); */
+    display: block;
+    /* background: no-repeat url("../../assets/images/hero-background.png");
+    background-size: 100% auto cover; */
+    /* padding-left: 15px; */
+}
+
+.hero-text {
+/* background: rgba(0, 0, 0, 0.7); */
+width: 715px;
+height: 330px;
+font-weight: 500;
+font-size: 90px;
+line-height: 110px;
+color: #EBBAD8;
+margin: 190px 200px 70px 80px !important;
+}
+
+.hero-img {
+        /* margin: 200px 20px 50px 80px !important; */
+    }
+
+.header-wrap {
+    background: url(../images/right-column-background-with-photos_smaller.png);
+    display: block;
+    background-size: 100% auto cover;
+    /* background-image: url(../../img/admin\ login.svg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.info-section {
+/* background: #E5E5E5; */
+height: 487px;
+}
+
+.features-section {
+    /* height: 978px;
+    background-color: #95798A; */
+    /* padding-left: 15px; */
+}
+
+.features-phone-card {
+    /* background-color: #95798A;
+    border: none; */
+}
+
+.info-section .card {
+    border: none;
+    margin-top: 40px;
+}
+
+/* Media Queries for device responsiveness */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+   
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+   .hero-section .minscreens img{
+       width: 320px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
+    
+    .hero-section .minscreens img {
+        width: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Iphone 5s and smaller devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .hero-section .minscreens img {
+        width: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
