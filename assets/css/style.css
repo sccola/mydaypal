@@ -20,10 +20,13 @@ nav {
 
 h1 {
     font-family: Ubuntu;
+    font-size: 2.5rem;
 }
 
 .custom-container {
     max-width: 1440px;
+    padding-bottom: 0!important;
+  padding-top: 0!important;
   }
   
   .container-fluid {
@@ -56,7 +59,7 @@ color: #000000;
 }
 
 .hero-section {
-    height: 959px;
+    /* height: 959px; */
     /* background: rgba(0, 0, 0, 0.7); */
     display: block;
     /* background: no-repeat url("../../assets/images/hero-background.png");
@@ -75,19 +78,29 @@ color: #EBBAD8;
 margin: 190px 200px 70px 80px !important;
 }
 
-.hero-img {
-        /* margin: 200px 20px 50px 80px !important; */
-    }
 
-.header-wrap {
-    background: url(../images/right-column-background-with-photos_smaller.png);
+
+.hero-img {
     display: block;
     background-size: 100% auto cover;
-    /* background-image: url(../../img/admin\ login.svg); */
+    background: url(../images/right-column-background-with-photos_smaller.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
-}
+    width: 576px;
+
+  }
+
+/* .header-wrap {
+    background: url(../images/right-column-background-with-photos_smaller.png);
+    display: block;
+    background-size: 100% auto cover;
+    background-image: url(../../img/admin\ login.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 576px !important;
+} */
 
 .info-section {
 /* background: #E5E5E5; */
