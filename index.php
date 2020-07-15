@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+
+echo '<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -121,4 +124,5 @@
   <script src="./assets/js/bootstrap-js/popper.js"></script>
 </body>
 
-</html>
+</html>'
+?>
