@@ -12,6 +12,8 @@
      
          if (mysqli_query($conn, $sql)) {
             // echo "Your email been added successfully, You will be contacted !";
+            header("Location: https://sccola-mydaypal.herokuapp.com/");
+  exit();
          } else {
             if (condition) {
                 # code...
