@@ -1,159 +1,153 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Geneva&display=swap");
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Ubuntu';
+body{
+  font-family: 'Ubuntu';
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    background-color: #2A2850;
-    color: #ffffff;
+  background-color: #2A2850;
+  color: #ffffff;
 }
 
-nav {
-    padding: 0px !important;
+.container-fluid {
+  max-width: 1440px;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 0;
+}  
+.lh-1-5{
+  line-height: 1.5;
 }
-
 h1 {
-    font-family: Ubuntu;
-    font-size: 2.5rem;
+  font-family: Ubuntu;
+  font-size: 2.5rem;
 }
 
-.custom-container {
-    max-width: 1440px;
-    padding-bottom: 0!important;
-  padding-top: 0!important;
-  }
-  
-  .container-fluid {
-    padding-bottom: 0 !important;
-  }  
-
-.header {
-    /* height: 100px; */
-    /* background: #E9CC41; */
-}
-
-.custom-text-pink {
-    color:#FF626A;
-}
-
-.custom-text-bold {
+.big-text{
+  font-family: Ubuntu;
 font-style: normal;
-font-weight: bold;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+width: 343px;
+/* height: 96px; */
+letter-spacing: 1px;
+color: #2A2850;
+/* margin-bottom: 20px; */
+}
+
+.small-text {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+letter-spacing: 1px;
+color: #2A2850;
+}
+
+.title-text{
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
 font-size: 40px;
-line-height: 49px;
-}
+line-height: 32px;
+/* identical to box height, or 80% */
 
-.custom-text-500 {
+letter-spacing: 1px;
+
+color: #FFFFFF;
+}
+.nav-brand-name{
+font-family: Geneva;
 font-style: normal;
-font-weight: 500;
-font-size: 20px;
+font-weight: normal;
+font-size: 18px;
 line-height: 24px;
-text-align: center;
-color: #000000;
+color: #FFFFFF;
+display: inline-block;
 }
 
-.hero-section {
-    /* height: 959px; */
-    /* background: rgba(0, 0, 0, 0.7); */
-    display: block;
-    /* background: no-repeat url("../../assets/images/hero-background.png");
-    background-size: 100% auto cover; */
-    /* padding-left: 15px; */
+.brand-logo{
+  height: 46px;
+  left: 150px;
+  top: 33px;
 }
 
-.hero-text {
-/* background: rgba(0, 0, 0, 0.7); */
-width: 715px;
-height: 330px;
-font-weight: 500;
-font-size: 90px;
-line-height: 110px;
-color: #EBBAD8;
-margin: 190px 200px 70px 80px !important;
+.tagline{
+   font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1px;
 }
 
+input::placeholder {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.5;
+}
 
+.email-input {
+  background: #FFFFFF;
+  border-radius: 10px;
+}
 
-.hero-img {
-    display: block;
-    background-size: 100% auto cover;
-    background: url(../images/right-column-background-with-photos_smaller.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    width: 576px;
-
+.subscribe-btn {
+  width: 149px;
+  background: #B6B3FF;
+  border-radius: 10px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
   }
 
-/* .header-wrap {
-    background: url(../images/right-column-background-with-photos_smaller.png);
-    display: block;
-    background-size: 100% auto cover;
-    background-image: url(../../img/admin\ login.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    width: 576px !important;
-} */
-
-.info-section {
-/* background: #E5E5E5; */
-height: 487px;
+.timer-box {
+width: 98px;
+height: 100px;
+/* margin-right: 40px; */
+border-radius: 5px;
+background: #C4C4C4;
 }
 
-.features-section {
-    /* height: 978px;
-    background-color: #95798A; */
-    /* padding-left: 15px; */
+.timer-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 1px;
+text-transform: capitalize;
+color: #000000 !important;
 }
 
-.features-phone-card {
-    /* background-color: #95798A;
-    border: none; */
+.timer {
+  /* margin-right: 40px; */
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0.5;
 }
 
-.info-section .card {
-    border: none;
-    margin-top: 40px;
+.why-mydaypal {
+  background-color:#F0EBEB;
+  color:#2A2850
 }
 
-/* Media Queries for device responsiveness */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-   
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-   .hero-section .minscreens img{
-       width: 320px;
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-   }
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
-    
-    .hero-section .minscreens img {
-        width: 320px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-/* Iphone 5s and smaller devices */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
-    .hero-section .minscreens img {
-        width: 280px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.screenhots {
+  color:#F0EBEB;
+  background-color;:#2A2850
 }

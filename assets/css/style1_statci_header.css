@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geneva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu';
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2850;
+    color: #ffffff;
+}
+
+nav {
+    padding: 0px !important;
+}
+
+.logo{
+    position: absolute;
+    /* width: 721px; */
+    height: 46px;
+    left: 150px;
+    top: 33px;
+}
+
+.logo-text {
+position: absolute;
+width: 83px;
+height: 24px;
+left: 218px;
+top: 50px;
+
+font-family: Geneva;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    display: inline-block;
+    /* padding-top: 0px;
+    margin-top: 10px; */
+}
+
+.tagline{
+    position: absolute;
+height: 54px;
+left: 150px;
+right: 670px;
+top: 250px;
+
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+
+h1 {
+
+    position: absolute;
+    width: 721px;
+    height: 46px;
+    left: 150px;
+    top: 328px;
+
+    /* font-size: 2.5rem; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 46px;
+    letter-spacing: 1px;
+}
+
+.custom-container {
+    max-width: 1440px;
+    padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  }
+  
+  .container-fluid {
+    padding-bottom: 0 !important;
+  }  
+
+.header {
+    /* height: 100px; */
+    /* background: #E9CC41; */
+}
+
+#form {
+    position: absolute;
+    /* width: 400px; */
+    height: 50px;
+    left: 160px;
+    top: 472px;
+}
+
+#countdown {
+    position: absolute;
+    /* width: 393px; */
+    height: 115px;
+    left: 150px;
+    top: 602px;
+}
+
+
+input::placeholder {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+opacity: 0.5;
+}
+
+.email-input {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    /* left: 150px; */
+    /* top: 472px; */
+    
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* position: absolute;
+width: 327px;
+height: 50px; */
+/* left: 150px; */
+/* top: 472px; */
+
+/* background: #FFFFFF;
+border-radius: 10px; */
+/* margin-right: 16px; */
+}
+
+.subscribe-btn {
+position: absolute;
+width: 149px;
+height: 50px;
+left: 320px;
+/* top: 472px; */
+
+background: #B6B3FF;
+border-radius: 10px;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.timer-box {
+    width: 98px !important;
+height: 100px !important;
+margin-right: 40px !important;
+/* left: 0px;
+top: 0px; */
+border-radius: 5px;
+background: #C4C4C4 !important;
+}
+
+.timer-text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 1px;
+text-transform: capitalize;
+
+color: #000000 !important;
+}
+
+
+.timer {
+    margin-right: 40px !important;
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+
+.custom-text-pink {
+    color:#FF626A;
+}
+
+.custom-text-bold {
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+}
+
+.custom-text-500 {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+
+.hero-section {
+    /* height: 959px; */
+    /* background: rgba(0, 0, 0, 0.7); */
+    display: block;
+    /* background: no-repeat url("../../assets/images/hero-background.png");
+    background-size: 100% auto cover; */
+    /* padding-left: 15px; */
+}
+
+/* .hero-text {
+background: rgba(0, 0, 0, 0.7);
+width: 715px;
+height: 330px;
+font-weight: 500;
+font-size: 90px;
+line-height: 110px;
+color: #EBBAD8;
+margin: 190px 200px 70px 80px !important;
+} */
+
+.photo {
+    /* width: 44% */
+}
+
+#top-photo{
+    /* position: relative;
+    top: 100px;
+    left: 192px; */
+    position: absolute;
+width: 300px;
+height: 300px;
+right: 138px;
+top: 138px;
+}
+
+#mid-photo{
+    position: absolute;
+width: 300px;
+height: 300px;
+/* left: 714px; */
+right: 426px;
+top: 454px;
+}
+
+#bottom-photo{
+    /* position: Absolute;
+    bottom: 3px;
+    left: 290px; */
+    position: absolute;
+width: 300px;
+height: 299.75px;
+/* left: 1140px;*/
+right: 0px;
+top: 600px;
+}
+
+.hero-img {
+    display: block;
+    /* background-size: auto cover; */
+    /* background: url(../images/right-column-background-with-photos_smaller.png); */
+    
+    position: absolute;
+width: 726px;
+height: 900px;
+left: 714px;
+top: 0px;
+    background: url(../images/right-column-backround-no-photos.png);
+    /* background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+    width: 576px; */
+
+  }
+
+/* .header-wrap {
+    background: url(../images/right-column-background-with-photos_smaller.png);
+    display: block;
+    background-size: 100% auto cover;
+    background-image: url(../../img/admin\ login.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 576px !important;
+} */
+
+.info-section {
+/* background: #E5E5E5; */
+height: 487px;
+}
+
+.features-section {
+    /* height: 978px;
+    background-color: #95798A; */
+    /* padding-left: 15px; */
+}
+
+.features-phone-card {
+    /* background-color: #95798A;
+    border: none; */
+}
+
+.info-section .card {
+    border: none;
+    margin-top: 40px;
+}
+
+/* Media Queries for device responsiveness */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+   
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+   .hero-section .minscreens img{
+       width: 320px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
+    
+    .hero-section .minscreens img {
+        width: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Iphone 5s and smaller devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .hero-section .minscreens img {
+        width: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
