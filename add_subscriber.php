@@ -11,12 +11,12 @@
          VALUES ('$email', '$verified')";
      
          if (mysqli_query($conn, $sql)) {
-            echo "Your email been added successfully, You will be contacted !";
+            // echo "Your email been added successfully, You will be contacted !";
          } else {
             if (condition) {
                 # code...
             } 
-            echo "Error: " . $sql . ":-" . mysqli_error($conn);
+            // echo "Error: " . $sql . ":-" . mysqli_error($conn);
             }
          mysqli_close($conn);
     }    
